@@ -1,8 +1,14 @@
 import React from 'react'
-
+import Header from '../components/Header/index'
+import SignUpSignInComponent from '../components/SignupSignin/index'
 const Signup = () => {
   return (
-    <div>Signup Page</div>
+    <>
+      <Header/>
+      <div className="wrapper">
+        <SignUpSignInComponent/>
+      </div>
+    </>
   )
 }
 
