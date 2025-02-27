@@ -1,8 +1,37 @@
-# React + Vite
+# Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A web-based personal finance tracker that helps users manage their income, expenses, and savings efficiently.
 
-Currently, two official plugins are available:
+## Features
+- User authentication for secure access.
+- Dashboard to track income, expenses, and savings.
+- Interactive charts for financial insights.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js (Frontend)
+- Firebase as (Database)
+
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/finance-tracker.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd finance-tracker
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Usage
+- Sign up or log in to manage your finances.
+- Add, edit, or delete transactions.
+- Analyze spending trends through interactive charts.
