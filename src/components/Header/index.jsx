@@ -9,7 +9,7 @@ const Header = () => {
   
   return (
     <div className='navbar'>
-      <p className='logo'>Financly.</p>
+      <p className='logo'>Financely.</p>
       <p className='logoutLink' onClick={logoutFun}>logout</p>
     </div>
   )
